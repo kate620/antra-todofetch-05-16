@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  padding: 50px;
+  height: 100vh;
+}
+
+/* List */
+.list-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-column {
+  margin: 25px;
+}
+
+.list-item {
+  list-style-type: none;
+  border: 1px solid #eee;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.list-item .list-header {
+  color: #333333;
+  font-size: 25px;
+}
+
+.list-item li {
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .list-item {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .list-item {
+    width: 300px;
+    height: 300px;
+  }
+}
